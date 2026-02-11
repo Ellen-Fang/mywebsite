@@ -1,0 +1,23 @@
+<div class="figma-container">
+  <h2>永你在一起App</h2>
+  <iframe 
+    style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px;" 
+    width="100%" 
+    height="600" 
+    src="https://www.figma.com/embed?embed_host=share&url=https://wifi-flame-76366651.figma.site/" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+.figma-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* 限制最大寬度，避免在大螢幕太扁 */
+  margin: 20px auto;
+  padding: 10px;
+}
+
+iframe {
+  aspect-ratio: 16 / 9; /* 維持黃金比例 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 加一點點陰影更有質感 */
+}
